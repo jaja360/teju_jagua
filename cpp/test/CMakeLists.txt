@@ -1,8 +1,7 @@
 # SPDX-License-Identifier: MIT
 # SPDX-FileCopyrightText: 2024 Cassio Neri <cassio.neri@gmail.com>
 
-add_executable(test
-
+add_executable(teju_test
   # Tests
   div10.cpp
   log.cpp
@@ -23,7 +22,7 @@ add_executable(test
   synthetic_2_small_shift.cpp
 )
 
-target_link_libraries(test
+target_link_libraries(teju_test
   teju
   boost_multiprecision
   gtest_main
