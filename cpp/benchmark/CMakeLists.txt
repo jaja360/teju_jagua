@@ -10,4 +10,5 @@ target_link_libraries(teju_benchmark PRIVATE
   gtest
   nanobench
   others
+  ryu::ryu
 )

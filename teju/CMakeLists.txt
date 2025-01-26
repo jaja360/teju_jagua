@@ -27,5 +27,5 @@ if (teju_has_float128)
 endif()
 
 target_include_directories(teju PUBLIC
-  "${CMAKE_SOURCE_DIR}"
+  ${CMAKE_CURRENT_SOURCE_DIR}/..
 )

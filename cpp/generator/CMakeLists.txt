@@ -9,7 +9,7 @@ add_executable(teju_generator
 )
 
 target_include_directories(teju_generator PRIVATE
-  "${CMAKE_SOURCE_DIR}"
+  ${CMAKE_CURRENT_SOURCE_DIR}/../..
 )
 
 target_link_libraries(teju_generator PRIVATE

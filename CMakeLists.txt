@@ -81,7 +81,7 @@ if (teju_has_float128)
   add_compile_definitions(teju_has_float128)
 endif()
 
-set(third_party_dir ${CMAKE_SOURCE_DIR}/third-party)
+set(third_party_dir ${CMAKE_CURRENT_SOURCE_DIR}/third-party)
 
 include(FetchContent)
 
