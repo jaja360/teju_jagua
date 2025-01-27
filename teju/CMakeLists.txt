@@ -12,6 +12,7 @@ if (teju_has_uint128)
     generated/ieee32_with_uint128.c
     generated/ieee64_with_uint128.c
   )
+  target_compile_definitions(teju PUBLIC teju_has_uint128)
 else()
   target_sources(teju PUBLIC
     generated/ieee32_no_uint128.c
@@ -24,6 +25,7 @@ if (teju_has_float128)
     generated/ieee128.c
     float128.c
   )
+  target_compile_definitions(teju PUBLIC teju_has_float128)
 endif()
 
 target_include_directories(teju PUBLIC
