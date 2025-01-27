@@ -24,7 +24,7 @@ add_executable(teju_test
 
 target_link_libraries(teju_test
   teju
-  boost_multiprecision
+  teju_boost_multiprecision
   gtest_main
   others
 )

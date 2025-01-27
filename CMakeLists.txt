@@ -148,6 +148,11 @@ set(BOOST_MP_STANDALONE on)
 set(BUILD_TESTING off)
 FetchContent_MakeAvailable(multiprecision)
 
+add_library(teju_boost_multiprecision INTERFACE)
+target_include_directories(teju_boost_multiprecision INTERFACE
+  ${multiprecision_SOURCE_DIR}/include
+)
+
 #-------------------------------------------------------------------------------
 # nanobench
 #-------------------------------------------------------------------------------

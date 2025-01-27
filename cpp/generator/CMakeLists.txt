@@ -13,6 +13,6 @@ target_include_directories(teju_generator PRIVATE
 )
 
 target_link_libraries(teju_generator PRIVATE
-  boost_multiprecision
+  teju_boost_multiprecision
   nlohmann_json::nlohmann_json
 )

@@ -12,4 +12,5 @@ target_include_directories(others PUBLIC
 target_link_libraries(others
   dragonbox::dragonbox
   ryu::ryu
+  teju_boost_multiprecision
 )
