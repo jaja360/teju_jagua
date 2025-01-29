@@ -14,6 +14,7 @@
   #include <boost/multiprecision/cpp_int.hpp>
 #endif
 
+#include <cstdint> // for std::uint32_t, std::uint64_t
 #include <iostream>
 
 namespace teju {
